@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_ConsoleApp", "EF_ConsoleApp\EF_ConsoleApp.csproj", "{02275756-BBC1-47B3-B0C8-8820E64D8D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_ConsoleApp_CodeFirst", "EF_ConsoleApp_CodeFirst\EF_ConsoleApp_CodeFirst.csproj", "{868E8BC0-8136-4DAD-B08D-C095DA28060A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{02275756-BBC1-47B3-B0C8-8820E64D8D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02275756-BBC1-47B3-B0C8-8820E64D8D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02275756-BBC1-47B3-B0C8-8820E64D8D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868E8BC0-8136-4DAD-B08D-C095DA28060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868E8BC0-8136-4DAD-B08D-C095DA28060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868E8BC0-8136-4DAD-B08D-C095DA28060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868E8BC0-8136-4DAD-B08D-C095DA28060A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
