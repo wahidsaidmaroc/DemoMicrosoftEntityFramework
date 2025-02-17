@@ -24,11 +24,7 @@ public class MyDbContext : DbContext
         var configuration = new ConfigurationBuilder()
                .AddJsonFile("appsettings.json")
                 .Build();
-
         var constr = configuration.GetSection("ConnectionStrings:ZoneToLearnDb").Value;
-
-
-
         optionsBuilder.UseSqlServer(constr);
     }
 
