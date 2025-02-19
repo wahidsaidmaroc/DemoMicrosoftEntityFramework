@@ -17,6 +17,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContext_DependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContext_Factory", "DbContext\DbContext_Factory\DbContext_Factory.csproj", "{3DA7C48B-FC80-4CF3-8D13-856A34881F12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBaseFirst", "DataBaseFirst", "{DF00F851-47E3-49E6-9CB8-C054EE4BAED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseFirst_Simple", "DataBaseFirst\DataBaseFirst_Simple\DataBaseFirst_Simple.csproj", "{721780E3-1AFD-4993-AA7F-4A002798A841}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{132B00CA-BDEC-40A3-9C6A-BCAE2F3FCA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration_FluentAPI", "Configuration\Configuration_FluentAPI\Configuration_FluentAPI.csproj", "{0C386B38-6241-49F6-8092-0E94B787A620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration_GroupingConfiguration", "Configuration\Configuration_GroupingConfiguration\Configuration_GroupingConfiguration.csproj", "{09779767-3741-4B91-852C-09D64452AA41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration_GroupingAssembly", "Configuration\Configuration_GroupingAssembly\Configuration_GroupingAssembly.csproj", "{1CB57D77-F220-42C1-A7F8-8483C86D3CD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +59,22 @@ Global
 		{3DA7C48B-FC80-4CF3-8D13-856A34881F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA7C48B-FC80-4CF3-8D13-856A34881F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA7C48B-FC80-4CF3-8D13-856A34881F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{721780E3-1AFD-4993-AA7F-4A002798A841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721780E3-1AFD-4993-AA7F-4A002798A841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721780E3-1AFD-4993-AA7F-4A002798A841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721780E3-1AFD-4993-AA7F-4A002798A841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C386B38-6241-49F6-8092-0E94B787A620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C386B38-6241-49F6-8092-0E94B787A620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C386B38-6241-49F6-8092-0E94B787A620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C386B38-6241-49F6-8092-0E94B787A620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09779767-3741-4B91-852C-09D64452AA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09779767-3741-4B91-852C-09D64452AA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09779767-3741-4B91-852C-09D64452AA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09779767-3741-4B91-852C-09D64452AA41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB57D77-F220-42C1-A7F8-8483C86D3CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB57D77-F220-42C1-A7F8-8483C86D3CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB57D77-F220-42C1-A7F8-8483C86D3CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB57D77-F220-42C1-A7F8-8483C86D3CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +84,9 @@ Global
 		{5DDE5F1B-4845-4209-9BE2-2AF909D4F7D2} = {1FD74CB3-1CCC-42A2-BE2F-F7726059268C}
 		{EEA9D52E-738E-405B-BC5E-99DF29FE777E} = {1FD74CB3-1CCC-42A2-BE2F-F7726059268C}
 		{3DA7C48B-FC80-4CF3-8D13-856A34881F12} = {1FD74CB3-1CCC-42A2-BE2F-F7726059268C}
+		{721780E3-1AFD-4993-AA7F-4A002798A841} = {DF00F851-47E3-49E6-9CB8-C054EE4BAED0}
+		{0C386B38-6241-49F6-8092-0E94B787A620} = {132B00CA-BDEC-40A3-9C6A-BCAE2F3FCA31}
+		{09779767-3741-4B91-852C-09D64452AA41} = {132B00CA-BDEC-40A3-9C6A-BCAE2F3FCA31}
+		{1CB57D77-F220-42C1-A7F8-8483C86D3CD7} = {132B00CA-BDEC-40A3-9C6A-BCAE2F3FCA31}
 	EndGlobalSection
 EndGlobal
